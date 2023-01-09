@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+
+form {
+  position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    max-width: 460px;
+    background: #fff;
+    padding: 20px 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+  
+  label {
+    font-weight:bold;
+    color: #4c81ff;
+    
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    box-sizing: border-box;
+    border: 1px solid #4c81ff;
+    background: #f8fafc;
+    outline: none;
+  }
+
+  .captcha-image{
+    height: 50px;
+    background-image: url("https://www.codeproject.com/KB/scripting/CreateCaptcha/1.JPG"); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.4rem;
+    user-select: none;
+    letter-spacing: 4px;
+    color: #111;
+    text-decoration:line-through;
+    font-weight: bold; 
+  }
+  
+  img {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #4c81ff;
+    color: #fff;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #4c92ff;
+}
